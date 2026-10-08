@@ -2,7 +2,6 @@ import os
 import sqlite3
 import pandas as pd
 
-# Paths (relative to the project root)
 CSV_PATH = "data/processed/arctic_sea_ice_sql.csv"
 DB_PATH = "database/arctic_ice.db"
 TABLE_NAME = "ice_concentration"
@@ -22,7 +21,6 @@ def save_to_sqlite(df: pd.DataFrame, db_path: str, table_name: str) -> None:
     with sqlite3.connect(db_path) as connection:
         df.to_sql(table_name, connection, if_exists="replace", index=False)
 
-        # Read a few rows back as a sanity check that the write worked
         preview = pd.read_sql_query(f"SELECT * FROM {table_name} LIMIT 5", connection)
         print(f"\nPreview of '{table_name}' in {db_path}:")
         print(preview)
