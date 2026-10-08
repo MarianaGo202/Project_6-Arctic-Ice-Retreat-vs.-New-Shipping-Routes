@@ -19,11 +19,7 @@ CONCENTRATION_VARIABLES = [
 MIN_LON, MAX_LON = -180, -145
 MIN_LAT, MAX_LAT = 55, 72
 
-
 def find_lat_lon_names(dataset):
-    # Some polar grids keep lat/lon as coordinates, others as plain
-    # data variables - check both instead of assuming "longitude"/
-    # "latitude" dimension names.
     lat_name = next((c for c in dataset.coords if "lat" in c.lower()), None)
     lon_name = next((c for c in dataset.coords if "lon" in c.lower()), None)
 
@@ -33,7 +29,6 @@ def find_lat_lon_names(dataset):
         lon_name = next((v for v in dataset.data_vars if "lon" in v.lower()), None)
 
     return lat_name, lon_name
-
 
 files = sorted(glob.glob(os.path.join(BASE_DIR, "may*", "*.nc")))
 
@@ -94,7 +89,6 @@ print(f"\nProcessed {len(daily_df)} daily records")
 
 daily_df.to_csv("data/processed/ice_age_daily_regional.csv", index=False)
 
-# One row per year (May mean), for the correlation/join with traffic later
 annual_df = (
     daily_df.drop(columns=["date"])
     .groupby("year", as_index=False)
