@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "study_region_albers",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3338" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "bering_chukchi_study_region" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 574185.849439469748177, 593080.109108146978542 ], [ 319000.52640528534539, 2464552.476636670529842 ], [ -900950.395013371598907, 2621553.144273313228041 ], [ -1621668.069620487745851, 875673.880113334744237 ], [ 574185.849439469748177, 593080.109108146978542 ] ] ] } }
+]
+}

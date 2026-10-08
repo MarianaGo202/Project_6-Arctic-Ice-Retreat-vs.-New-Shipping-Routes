@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>0</serialVersion>
+    <identifier>urn:uuid:631d0675-835b-45cf-8801-71d5b9de3aaa</identifier>
+    <formatId>image/geotiff</formatId>
+    <size>5499</size>
+    <checksum algorithm="MD5">2e54e161e9d592003e5e0c89129db49e</checksum>
+    <submitter>http://orcid.org/0000-0003-3708-6154</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-2048-5020</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+        <allow>
+            <subject>http://orcid.org/0000-0002-2048-5020</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="3"/>
+    <archived>false</archived>
+    <dateUploaded>2022-06-10T17:50:30.100+00:00</dateUploaded>
+    <dateSysMetadataModified>2022-06-15T22:32:12.515+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <fileName>Raster_2017_04_Tanker_25km.tif</fileName>
+</ns3:systemMetadata>

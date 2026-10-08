@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>0</serialVersion>
+    <identifier>urn:uuid:2e2781eb-31c6-4816-9524-8976187e413d</identifier>
+    <formatId>image/geotiff</formatId>
+    <size>67952</size>
+    <checksum algorithm="MD5">04076614050b9549e093e597d276be29</checksum>
+    <submitter>http://orcid.org/0000-0003-3708-6154</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-2048-5020</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+        <allow>
+            <subject>http://orcid.org/0000-0002-2048-5020</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="3"/>
+    <archived>false</archived>
+    <dateUploaded>2022-06-10T17:41:07.010+00:00</dateUploaded>
+    <dateSysMetadataModified>2022-06-15T21:04:36.033+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <fileName>Raster_2019_07_Cargo_10km.tif</fileName>
+</ns3:systemMetadata>

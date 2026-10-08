@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>13</serialVersion>
+    <identifier>resource_map_doi:10.18739/A2NZ80R4J</identifier>
+    <formatId>http://www.openarchives.org/ore/terms</formatId>
+    <size>380642</size>
+    <checksum algorithm="SHA-256">1928fbc2f3ba4d1200cad1a905221cff696fbd644d25fb773f2608e251efa186</checksum>
+    <submitter>http://orcid.org/0000-0003-3708-6154</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-2048-5020</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0002-2048-5020</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="true" numberReplicas="3"/>
+    <obsoletes>resource_map_urn:uuid:9751c86b-2ec5-47ef-a717-6ce66a989ed5</obsoletes>
+    <archived>false</archived>
+    <dateUploaded>2022-06-15T21:10:27.706+00:00</dateUploaded>
+    <dateSysMetadataModified>2022-06-15T21:10:27.970+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <replica>
+        <replicaMemberNode>urn:node:ARCTIC</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2022-06-15T21:12:42.466+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:CN</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2022-06-15T21:12:42.501+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:mnUCSB1</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2022-07-30T01:20:06.026+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:PPBIO</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2022-07-30T01:20:09.401+00:00</replicaVerified>
+    </replica>
+    <replica>
+        <replicaMemberNode>urn:node:UIC</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2022-08-10T16:15:09.910+00:00</replicaVerified>
+    </replica>
+    <fileName>resource_map_doi:10.18739_A2NZ80R4J.rdf</fileName>
+</ns3:systemMetadata>

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "study_region_polar_stereo",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3411" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "bering_chukchi_study_region" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -3849859.315472817514092, 678834.0692496803822 ], [ -1935622.038394697709009, 341302.389822901866864 ], [ -1389805.741249126847833, 1389805.741249126382172 ], [ -2764256.902180667035282, 2764256.90218066656962 ], [ -3849859.315472817514092, 678834.0692496803822 ] ] ] } }
+]
+}

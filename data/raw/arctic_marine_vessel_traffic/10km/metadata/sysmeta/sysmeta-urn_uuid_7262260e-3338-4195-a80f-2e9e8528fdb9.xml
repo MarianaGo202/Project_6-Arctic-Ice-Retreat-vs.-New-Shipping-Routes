@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>0</serialVersion>
+    <identifier>urn:uuid:7262260e-3338-4195-a80f-2e9e8528fdb9</identifier>
+    <formatId>image/geotiff</formatId>
+    <size>53303</size>
+    <checksum algorithm="MD5">1fcc2837174ff0e1c03bb9cc22489165</checksum>
+    <submitter>http://orcid.org/0000-0003-3708-6154</submitter>
+    <rightsHolder>http://orcid.org/0000-0002-2048-5020</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0002-2048-5020</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="3"/>
+    <archived>false</archived>
+    <dateUploaded>2022-06-10T17:41:06.313+00:00</dateUploaded>
+    <dateSysMetadataModified>2022-06-15T21:03:49.764+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <fileName>Raster_2019_04_Fishing_10km.tif</fileName>
+</ns3:systemMetadata>
