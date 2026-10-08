@@ -1,6 +1,5 @@
 import os
 
-# Create the project's folder structure before processing anything
 FOLDERS = [
     "data/raw",
     "data/processed",
