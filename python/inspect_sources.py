@@ -106,8 +106,6 @@ else:
 
 print("\n4. COPERNICUS ARCTIC SEA ICE AGE (NetCDF)")
 
-# Daily files, one per day, organized in year folders:
-# data/raw/arctic_ice_age/may2023/*.nc, may2024/*.nc, etc.
 ice_age_dir = RAW_DIR / "arctic_ice_age"
 
 netcdf_files = sorted(ice_age_dir.glob("may*/*.nc"))
@@ -117,11 +115,8 @@ if not netcdf_files:
     print("Update the path above to match your downloaded folder layout.")
 
 else:
-
-    # One daily file per day - inspect just the first file from each
-    # year folder, since they all share the same structure.
     seen_folders = set()
-
+    
     for path in netcdf_files:
         year_folder = path.parent.name
         if year_folder in seen_folders:
